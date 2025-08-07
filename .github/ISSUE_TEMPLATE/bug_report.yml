@@ -25,10 +25,7 @@ body:
     id: ToReproduce
     attributes:
       label: To Reproduce
-      description: Describe the step how bug can be obeserve.
-      value: "0. Open software 
-              1. Do something.. 
-              "
+      description: What is the order to observe the problem?
     validations:
       required: true
 
@@ -36,7 +33,7 @@ body:
     id: ExpectedBehavior
     attributes:
       label: Expected Behavior
-      description: What is the behavior should expected?
+      description: What did you expect to happen?
     validations:
       required: true
 
@@ -44,15 +41,7 @@ body:
     id: ActualBehavior
     attributes:
       label: Actual Behavior
-      description: Explain about current behavior. If there is screenshot it will be even better. 
+      description: How does the current software behave when this error occurs?
     validations:
       required: true
-
-  - type: input
-    id: RelatedFiles
-    attributes:
-      label: Related files
-      description: Which files of this repostiory is related with this issue?
-    validations:
-      required: false
 

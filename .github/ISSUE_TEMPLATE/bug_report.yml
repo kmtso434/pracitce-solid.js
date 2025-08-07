@@ -22,7 +22,7 @@ body:
         - Linux
 
   - type: textarea
-    id: To Reproduce
+    id: ToReproduce
     attributes:
       label: To Reproduce
       description: Describe the step how bug can be obeserve.
@@ -31,7 +31,7 @@ body:
       required: true
 
   - type: textarea
-    id: Expected Behavior
+    id: ExpectedBehavior
     attributes:
       label: Expected Behavior
       description: What is the behavior should expected?
@@ -39,7 +39,7 @@ body:
       required: true
 
   - type: textarea
-    id: Actual Behavior
+    id: ActualBehavior
     attributes:
       label: Actual Behavior
       description: Explain about current behavior. If there is screenshot it will be even better. 
@@ -47,7 +47,7 @@ body:
       required: true
 
   - type: input
-    id: Related files
+    id: RelatedFiles
     attributes:
       label: Related files
       description: Which files of this repostiory is related with this issue?

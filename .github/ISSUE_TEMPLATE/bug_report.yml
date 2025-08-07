@@ -14,7 +14,8 @@ body:
   - type: dropdown
     id: OS
     attributes:
-      label: Which OS are you using?
+      label: OS
+      description: Which OS are you using?
       multiple: false
       options:
         - Window

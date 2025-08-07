@@ -2,19 +2,26 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: feature
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Context**
+What are you trying to do and how would you want to do it differently? Is it something you currently you cannot do? Is this related to an issue/problem?
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Alternatives**
+Can you achieve the same result doing it in an alternative way? Is the alternative considerable?
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Expected Behavior**
+A clear and concise description of what you expected to happen.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Related Files**
+A list of relevant files for this issue. This will help people navigate the project and offer some clues of where to start.
+
+**Task**
+Include specific tasks in the order they need to be done in. Include links to specific lines of code where the task should happen at.
+
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3

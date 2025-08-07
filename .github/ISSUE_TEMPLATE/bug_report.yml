@@ -26,7 +26,9 @@ body:
     attributes:
       label: To Reproduce
       description: Describe the step how bug can be obeserve.
-      value: "0. Open software /n 1. Do something.. /n"
+      value: "0. Open software 
+              1. Do something.. 
+              "
     validations:
       required: true
 

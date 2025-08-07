@@ -1,6 +1,5 @@
 name: Bug Report
 description: File a bug report.
-title: "[Bug]: "
 labels: ["bug"]
 
 body:
@@ -26,6 +25,9 @@ body:
     attributes:
       label: To Reproduce
       description: What is the order to observe the problem?
+      value: 01. Go to main |
+              02. Do something.. |
+              03. Error found
     validations:
       required: true
 

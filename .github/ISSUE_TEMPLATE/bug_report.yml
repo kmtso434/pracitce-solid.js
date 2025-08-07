@@ -1,65 +1,56 @@
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+labels: ["bug"]
+
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
     id: version
     attributes:
       label: Version
       description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
     validations:
       required: true
+
   - type: dropdown
-    id: browsers
+    id: OS
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: Which OS are you using?
+      multiple: false
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Window
+        - Linux
+
   - type: textarea
-    id: logs
+    id: To Reproduce
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: To Reproduce
+      description: Describe the step how bug can be obeserve.
+      value: "0. Open software /n 1. Do something.. /n"
+    validations:
+      required: true
+
+  - type: textarea
+    id: Expected Behavior
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Expected Behavior
+      description: What is the behavior should expected?
+    validations:
+      required: true
+
+  - type: textarea
+    id: Actual Behavior
+    attributes:
+      label: Actual Behavior
+      description: Explain about current behavior. If there is screenshot it will be even better. 
+    validations:
+      required: true
+
+  - type: input
+    id: Related files
+    attributes:
+      label: Related files
+      description: Which files of this repostiory is related with this issue?
+    validations:
+      required: false
 

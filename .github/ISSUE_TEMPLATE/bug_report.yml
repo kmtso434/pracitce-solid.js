@@ -25,9 +25,6 @@ body:
     attributes:
       label: To Reproduce
       description: What is the order to observe the problem?
-      value:  | 01. Go to main 
-              02. Do something.. 
-              03. Error found
     validations:
       required: true
 
